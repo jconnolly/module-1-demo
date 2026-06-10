@@ -1,4 +1,13 @@
-# Prompting Foundations - 1
+# Module 1- Prompting Foundations - 1
+
+## Lab Guide
+
+This guide contains the Lab walkthroughs and the activity instructions for Module 2. Follow each lab task alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
+
+> *LLM outputs are non-deterministic - your outputs may differ from what the instructor or this guide shows. Treat the references here as expected behavior, not as exact matches.*
+
+> **Note for learners**: 
+This lab uses the branch 'module-1-demo’
 
 This lab covers two practical ideas:
 
@@ -9,7 +18,7 @@ The work is split into three live demos followed by one exercise.
 
 ---
 
-# Live Demo 1 - Workspace Context and Schema Awareness
+# Lab 1 - Workspace Context and Schema Awareness
 
 ## Overview
 
@@ -88,7 +97,7 @@ Accept the output only if the generated code clearly follows the schema.
 
 ---
 
-# Live Demo 2 - Signal, Noise, and Curated Tabs
+# Lab 2 - Signal, Noise, and Curated Tabs
 
 ## Overview
 
@@ -162,7 +171,7 @@ Accept the output only if it is easier to review against the current schema and 
 - Note: The generated output may slightly vary due non deterministic nature of LLM and less informative prompt
 ---
 
-# Live Demo 3 - Prompting Techniques
+# Lab 3 - Prompting Techniques
 
 ## Overview
 
@@ -316,10 +325,12 @@ Accept the output only if it:
 
 ---
 
-# Activity - The Tale of Two Prompts
+# Exercise - The Tale of Two Prompts
 
 - This exercise compares a broad prompt with an acceptance-criteria-driven prompt for the same task: updating a user's clearance level.
 - Let's consider two prompts prompt A and Prompt B
+
+## Task 1: Prompt A
 - For the Prompt A, Start by opening db.js, schema.sql in VS Code.
 - Create a new file `SecurityPolicy.ts` in module1-demo and add the following code:
 
@@ -335,7 +346,7 @@ export const ClearanceRules = {
 ```text
 Write a function to update a user's clearance level.
 ```
-
+## Task 2: Prompt B
 - For the Prompt B, Clear the previous output from db.js.
 
 - Paste the following acceptance-criteria block below in db.js file:
@@ -355,3 +366,4 @@ Write a function to update a user's clearance level.
 Reason through how #SecurityPolicy.ts changes validation for #schema.sql, then implement the function following all 5 AC points.
 
 ```
+
