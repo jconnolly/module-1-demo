@@ -114,4 +114,4 @@ By the end of this module, you will be able to:
 - Review and validate Copilot's output against requirements
 
 ---
-For detailed lab instructions and solutions, see `Lab.md` and `exercise_solution.md`.
+For detailed lab instructions and solutions, see [Lab.md](https://github.com/DataSocietyTraining/module-1-demo/blob/module-1-repo/Lab.md) and `exercise_solution.md`.
