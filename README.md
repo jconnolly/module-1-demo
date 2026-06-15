@@ -19,7 +19,7 @@ The module is organized into interactive demos, guided labs, and hands-on exerci
 - Overview of Copilot in VS Code
 
 
-### 2. Demo 1: Workspace Context and Schema Awareness
+### 2. Lab 1: Workspace Context and Schema Awareness
 - Generate code with and without schema context
 - Observe how Copilot guesses or uses real schema fields
 
@@ -37,7 +37,7 @@ module-1-demo/
 ```
 
 
-### 3. Demo 2: Signal, Noise, and Curated Tabs
+### 3. Lab 2: Signal, Noise, and Curated Tabs
 - See how unrelated files (noise) affect Copilot's suggestions
 - Practice curating open tabs for better results
 
@@ -57,7 +57,7 @@ module-1-demo/
 ```
 
 
-### 4. Demo 3: Prompting Techniques
+### 4. Lab 3: Prompting Techniques
 - Try zero-shot, few-shot, chain-of-thought, and constrained prompts
 - Compare outputs and review against requirements
 
