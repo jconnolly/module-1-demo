@@ -2,7 +2,7 @@
 
 ## Lab Guide
 
-This guide contains the Lab walkthroughs and the activity instructions for Module 2. Follow each lab task alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
+This guide contains the Lab walkthroughs and the activity instructions for Module 1. Follow each lab task alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
 
 > *LLM outputs are non-deterministic - your outputs may differ from what the instructor or this guide shows. Treat the references here as expected behavior, not as exact matches.*
 
